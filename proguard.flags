@@ -1,0 +1,6 @@
+-keep class com.gp.updater.Updater {
+  *;
+}
+-keep class com.gp.updater.OTA {
+  *;
+}

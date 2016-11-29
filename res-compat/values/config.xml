@@ -1,0 +1,5 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- This resource is overlayed automatically if "/emmc" is detected
+         in the recovery.fstab file -->
+    <bool name="alternateIsInternal">true</bool>
+</resources>

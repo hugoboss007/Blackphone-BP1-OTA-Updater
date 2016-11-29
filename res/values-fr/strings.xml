@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<string name="app_name">Logiciel de mise à jour</string>
+<string name="display_name">Mises à jour</string>
+<string name="unknown">Inconnu</string>
+<string name="menu_refresh">Réactualiser</string>
+<string name="menu_delete">Supprimer</string>
+<string name="menu_delete_all">Supprimer les téléchargements</string>
+<string name="menu_system_info">Informations système</string>
+<string name="dialog_ok">OK</string>
+<string name="dialog_cancel">Annuler</string>
+<string name="dialog_yes">Oui</string>
+<string name="dialog_no">Non</string>
+<string name="dialog_continue">Continuer</string>
+<string name="dialog_close">Fermer</string>
+<string name="available_updates_title">Mises à jour disponibles</string>
+<string name="no_available_updates_intro">La dernière vérification n\'a pas permis de trouver des mises à jour disponibles. Pour rechercher manuellement de nouvelles mises à jour, utilisez le bouton Réactualiser</string>
+<string name="new_update_summary">Nouveau</string>
+<string name="downloaded_update_summary">Téléchargement terminé</string>
+<string name="installed_update_summary">Installation terminée</string>
+<string name="backup_rom_title">Créer une sauvegarde</string>
+<string name="backup_rom_summary">Sauvegarder la ROM existante avant de procéder à la mise à jour</string>
+<string name="update_check_title">Recherche de mises à jour.</string>
+<string name="check_manual">Recherche manuelle</string>
+<string name="check_on_boot">À chaque  démarrage</string>
+<string name="check_twice_daily">Deux moins par jour</string>
+<string name="check_daily">Une fois par jour</string>
+<string name="check_weekly">Hebdomadairement</string>
+<string name="check_bi_weekly">Bi-hebdomadairement</string>
+<string name="check_monthly">Mensuellement</string>
+<string name="update_type_title">Mise à jour des types</string>
+<string name="type_all">Toutes les versions (uniquement stables)</string>
+<string name="type_all_incl_nightly">Toutes les versions (nocturnes)</string>
+<string name="type_new">Nouvelles versions (uniquement stables)</string>
+<string name="type_new_incl_nightly">Nouvelles versions (nocturnes)</string>
+<string name="nightly_alert">Vous avez sélectionné l\'option permettant d\'inclure dans cette liste les mises à jour en soirée. Celles-ci ne bénéficient pas de support technique et devraient être utilisées avec précaution.</string>
+<string name="nightly_alert_title">Attention</string>
+<string name="checking_for_updates">Recherche de mises à jour.</string>
+<string name="no_updates_found">Aucune nouvelle mise à jour trouvée</string>
+<string name="update_check_failed">L\'opération de recherche de mises à jour a échoué. Veuillez vérifier votre connexion Internet et réessayez plus tard.</string>
+<string name="new_updates_found_ticker">De nouvelles mises à jour sont disponibles</string>
+<string name="new_updates_found_title">Nouvelles mises à jour.</string>
+<plurals name="new_updates_found_body">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mise à jour disponible pour téléchargement</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mises à jour disponible pour téléchargement</item>
+</plurals>
+<plurals name="not_additional_count">
+<item quantity="other">+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Plus</item>
+</plurals>
+<string name="not_action_download">Télécharger</string>
+<string name="data_connection_required">Une connexion aux données est requise.</string>
+<string name="confirm_download_cancelation_dialog_title">Annuler téléchargement</string>
+<string name="confirm_download_cancelation_dialog_message">Annuler le téléchargement en cours ?</string>
+<string name="download_cancelled">Téléchargement annulé</string>
+<string name="download_already_running">Un téléchargement est déjà en cours</string>
+<string name="unable_to_download_file">Échec du téléchargement du fichier de mise à jour</string>
+<string name="download_not_found">Téléchargement non trouvé</string>
+<string name="not_download_success">Téléchargement de la mise à jour effectué</string>
+<string name="not_download_failure">Échec du téléchargement de la mise à jour</string>
+<string name="not_action_install_update">Redémarrer et installer</string>
+<string name="not_download_install_notice">Téléchargement de la mise à jour<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>effectué. Lorsque vous appuierez sur \'this notice\', l\'appareil redémarrera de lui-même pour installer la mise à jour. \n\n</string>
+<string name="apply_existing_update_md5error_message">Error. MD5 checksum mismatch</string>
+<string name="md5_check_cancelled">Vérification MD5 annulée</string>
+<string name="md5_verification_failed">Échec de la vérification MD5</string>
+<string name="apply_update_dialog_title">Appliquer la mise à jour</string>
+<string name="apply_update_dialog_text">Vous êtes sur le point de mettre à jour<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>.\n\nSi vous appuyer sur Continuer, l\'appareil redémarrera de lui-même en mode restauration pour installer la mise à jour.</string>
+<string name="apply_trying_to_get_root_access">Tentative d\'obtention d\'un accès racine pour redémarrer en mode restauration</string>
+<string name="apply_preparing_the_update">Préparer la mise à jour</string>
+<string name="apply_unable_to_reboot_toast">Échec du redémarrage en mode restauration</string>
+<string name="confirm_delete_dialog_title">Supprimer le fichier</string>
+<string name="confirm_delete_dialog_message">Supprimer le fichier de mise à jour sélectionné ?</string>
+<string name="confirm_delete_all_dialog_message">Supprimer tous les fichiers de mise à jour téléchargés ?</string>
+<string name="delete_single_update_success_message">Mise à jour<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>supprimée</string>
+<string name="delete_updates_failure_message">Une erreur est survenue lors de la suppression du fichier de mise à jour</string>
+<string name="delete_updates_noFolder_message">Dossier de mise à jour non trouvé</string>
+<string name="delete_updates_success_message">Toutes les mises à jour téléchargées supprimées</string>
+<string name="sysinfo_device">Appareil :</string>
+<string name="sysinfo_running">En cours :</string>
+<string name="sysinfo_last_check">Recherche effectuée pour la dernière fois :</string>
+<string name="no_changelog_alert">Aucun journal des changements disponible</string>
+<string name="failed_to_load_changelog">Échec du chargement du journal des changements</string>
+<string name="changelog_dialog_title">Journal des changements</string>
+<string name="loading_changelog">Loading\u2026</string>
+<string name="extension_label">Mises à jour système</string>
+<string name="extension_description">Affiche un certain nombre de nouvelles mises à jour disponibles.</string>
+<plurals name="extension_status">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mise à jour système</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mises à jour système</item>
+</plurals>
+<plurals name="extension_expandedTitle">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mise à jour système</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Mises à jour système</item>
+</plurals>
+</resources>

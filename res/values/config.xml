@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- CMUpdate Config Strings -->
+    <string name="conf_update_server_url_def" translatable="false">https://ota-auto.blackphone.ch/</string>
+    <string name="conf_changelog_url" translatable="false">https://ota-auto.blackphone.ch/changelog.xml</string>
+    <bool name="alternateIsInternal">false</bool>
+</resources>

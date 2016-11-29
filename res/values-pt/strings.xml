@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<resources>
+<string name="app_name">Atualizador</string>
+<string name="display_name">Atualizações</string>
+<string name="unknown">Desconhecido</string>
+<string name="menu_refresh">Atualizar</string>
+<string name="menu_delete">Excluir</string>
+<string name="menu_delete_all">Excluir downloads</string>
+<string name="menu_system_info">Informações do sistema</string>
+<string name="dialog_ok">OK</string>
+<string name="dialog_cancel">Cancelar</string>
+<string name="dialog_yes">Sim</string>
+<string name="dialog_no">Não</string>
+<string name="dialog_continue">Continuar</string>
+<string name="dialog_close">Fechar</string>
+<string name="available_updates_title">Atualizações disponíveis</string>
+<string name="no_available_updates_intro">A última verificação não encontrou nenhuma atualização disponível. Para verificar manualmente se há novas atualizações, use o botão Atualizar.</string>
+<string name="new_update_summary">Novo</string>
+<string name="downloaded_update_summary">Download feito</string>
+<string name="installed_update_summary">Instalado</string>
+<string name="backup_rom_title">Criar backup</string>
+<string name="backup_rom_summary">Fazer backup da ROM existente antes de atualizar</string>
+<string name="update_check_title">Verificar atualizações</string>
+<string name="check_manual">Manual</string>
+<string name="check_on_boot">Em cada inicialização</string>
+<string name="check_twice_daily">Duas vezes por dia</string>
+<string name="check_daily">Diariamente</string>
+<string name="check_weekly">Semanalmente</string>
+<string name="check_bi_weekly">Cada duas semanas</string>
+<string name="check_monthly">Mensalmente</string>
+<string name="update_type_title">Tipos de atualização</string>
+<string name="type_all">Todas as versões (estáveis apenas)</string>
+<string name="type_all_incl_nightly">Todas as versões (pernoites)</string>
+<string name="type_new">Novas versões (estáveis apenas)</string>
+<string name="type_new_incl_nightly">Novas versões (pernoites)</string>
+<string name="nightly_alert">Você selecionou a inclusão de atualizações de pernoite nesta lista. São compatíveis e devem ser usadas ​​com cautela.</string>
+<string name="nightly_alert_title">Cuidado</string>
+<string name="checking_for_updates">Verificando atualizações</string>
+<string name="no_updates_found">Nenhuma atualização nova encontrada</string>
+<string name="update_check_failed">Falha na verificação de atualização. Verifique sua conexão com a internet e tente novamente mais tarde.</string>
+<string name="new_updates_found_ticker">Novas atualizações disponíveis</string>
+<string name="new_updates_found_title">Novas atualizações</string>
+<plurals name="new_updates_found_body">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>atualização disponível para download</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>atualizações disponíveis para download</item>
+</plurals>
+<plurals name="not_additional_count">
+<item quantity="other">+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>mais</item>
+</plurals>
+<string name="not_action_download">Download</string>
+<string name="data_connection_required">Necessária uma conexão de dados.</string>
+<string name="confirm_download_cancelation_dialog_title">Cancelar download</string>
+<string name="confirm_download_cancelation_dialog_message">Cancelar o download atual?</string>
+<string name="download_cancelled">Download cancelado</string>
+<string name="download_already_running">O download está em andamento</string>
+<string name="unable_to_download_file">Não é possível baixar o arquivo de atualização</string>
+<string name="download_not_found">Download não encontrado</string>
+<string name="not_download_success">Download da atualização bem-sucedido</string>
+<string name="not_download_failure">Download da atualização falhou</string>
+<string name="not_action_install_update">Reinicie o computador e instale</string>
+<string name="not_download_install_notice">A atualização<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>foi baixada com sucesso. Ao tocar em \'este aviso\', o dispositivo será reiniciado para instalação da atualização.\n\n</string>
+<string name="apply_existing_update_md5error_message">Erro. Erro de MD5 checksum</string>
+<string name="md5_check_cancelled">Verificação de MD5 cancelada</string>
+<string name="md5_verification_failed">Verificação de MD5 falhou</string>
+<string name="apply_update_dialog_title">Aplicar atualização</string>
+<string name="apply_update_dialog_text">Você está prestes a atualizar para<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>.\n\nSe você pressionar Continuar, o dispositivo será reiniciado em modo de recuperação para instalar a atualização.</string>
+<string name="apply_trying_to_get_root_access">Tentando obter acesso ao raiz para reiniciar em modo de recuperação</string>
+<string name="apply_preparing_the_update">Preparando atualização</string>
+<string name="apply_unable_to_reboot_toast">Não foi possível reiniciar em recuperação</string>
+<string name="confirm_delete_dialog_title">Excluir arquivo</string>
+<string name="confirm_delete_dialog_message">Excluir o arquivo de atualização selecionado?</string>
+<string name="confirm_delete_all_dialog_message">Excluir todos os arquivos de atualização em download?</string>
+<string name="delete_single_update_success_message">Atualizar<g id="filename" xmlns="urn:oasis:names:tc:xliff:document:1.2">%s</g>excluído</string>
+<string name="delete_updates_failure_message">Erro ao excluir arquivo de atualização</string>
+<string name="delete_updates_noFolder_message">Pasta de atualização não encontrada</string>
+<string name="delete_updates_success_message">Todas as atualizações em download excluídas</string>
+<string name="sysinfo_device">Dispositivo:</string>
+<string name="sysinfo_running">Executando:</string>
+<string name="sysinfo_last_check">Última verificação:</string>
+<string name="no_changelog_alert">Nenhum registro de alteração disponível</string>
+<string name="failed_to_load_changelog">Não foi possível carregar registro de alteração</string>
+<string name="changelog_dialog_title">Registro de alteração</string>
+<string name="loading_changelog">Carregando\u2026</string>
+<string name="extension_label">Atualizações do sistema</string>
+<string name="extension_description">Exibe o número de novas atualizações disponíveis.</string>
+<plurals name="extension_status">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>atualização</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>atualizações</item>
+</plurals>
+<plurals name="extension_expandedTitle">
+<item quantity="one">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Atualização do sistema</item>
+<item quantity="other">
+<g id="count" xmlns="urn:oasis:names:tc:xliff:document:1.2">%d</g>Atualizações do sistema</item>
+</plurals>
+</resources>
